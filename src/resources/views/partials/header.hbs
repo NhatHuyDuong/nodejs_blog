@@ -1,13 +1,23 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="/">Jerry Huy</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/courses/create">Create Course</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://i.pinimg.com/236x/db/8d/48/db8d4877d92d07b4028d19f4c367ab50.jpg" alt="" class="user-avatar">
+            Huy Duong
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/courses/create">Create Course</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" href="/me/stored/coursed">My Courses</a></li>
+            <div class="dropdown-divider"></div>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
         </li>
       </ul>
     </div>
